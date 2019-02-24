@@ -68,6 +68,7 @@ merge_array =[]
 
   data.each do |data_items|
     data_items.each do |key, value|
+<<<<<<< HEAD
       keys.each do |val|
         if val.values[0] == key
           merge_array << val.merge(value)
@@ -76,6 +77,11 @@ merge_array =[]
     end
   end
   merge_array
+=======
+        puts value
+    end
+  end
+>>>>>>> ce70de9d092a37f9ea7053bc8a42f9d19c0c2a7d
 end
 
 
